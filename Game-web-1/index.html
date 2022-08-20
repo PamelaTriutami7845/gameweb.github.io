@@ -1,0 +1,2323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./nanoScroller.js"></script>
+    <script src="https://kit.fontawesome.com/f3d2ade942.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css" media="screen">
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+    <script src="https://unpkg.com/flickity-as-nav-for@2/as-nav-for.js"></script>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <script src="./bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/lightbox2/src/css/lightbox.css">
+    <script src="./node_modules/lightbox2/src/js/lightbox.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>web game</title>
+</head>
+<body>
+    <div class="">
+        <!-- start background -->
+            <img class="nk-page-background-top" src="./Images/bg-top.png" alt="background-top">
+            <img class="nk-page-background-bottom" src="./Images/bg-bottom.png" alt="background-bottom">
+        <!-- end background -->
+        <!-- Start: TOP Contacts -->
+        <header class="nk-header nk-header-opaque">
+            <div class="nk-contacts-top">
+                <div class="container">
+                    <div class="nk-contacts-left">
+                        <ul class="nk-social-links">
+                            <li>
+                                <a class="nk-social-rss" href="#">
+                                    <i class="fa-solid fa-rss"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nk-social-twitch" href="#">
+                                    <i class="fa-brands fa-twitch"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nk-social-steam" href="#">
+                                    <i class="fa-brands fa-steam"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nk-social-facebook">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nk-social-google-plus">
+                                    <i class="fa-brands fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nk-social-twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nk-social-pinterest">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nk-contacts-right">
+                        <ul class="nk-contacts-icons">
+                            <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                            <span class="nk-badge">28</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- END: TOP Contacts -->
+            <!-- start Navbar -->
+            <nav class="nk-navbar nk-navbar-top nk-navbar-sticky nk-navbar-autohide nk-onscroll-show">
+                <div class="container">
+                    <div class="nk-nav-table">
+                        <a href="#">
+                            <img src="./Images/logo.svg" alt="goodGames" width="199">
+                        </a>
+                        <ul class="nk-nav nk-nav-right  d-lg-table-cell">
+                            <li class="nk-drop-item">
+                                <a href="#">Features</a>                             
+                                <!-- drobdown 1 -->
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="#"> Elements (Shortcodes) </a>
+                                    </li>
+                                    <li class="nk-drop-item2">
+                                        <a href="" >Forum </a>      
+                                      <!-- drobdown 2 -->
+                                        <ul class="drobdown2">
+                                            <li>
+                                                <a href="#">
+                                                    forum
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Topics
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Single Topic
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Widgets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Coming Soon</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Offline</a>
+                                    </li>
+                                    <li><a href="#">404</a></li>
+                                </ul>
+                            </li>
+                            <li class="nk-drop-item3">
+                                <a href="#">Blog</a>                             
+                                <!-- drobdown 1 -->
+                                <ul class="dropdown3" style="margin-top: 43.7656px; margin-left: -9px;">
+                                    <li>
+                                        <a href="#">News</a>
+                                    </li>
+                                    <li class="nk-drop-item4">
+                                        <a href="" >Blog with Sidebar</a>      
+                                      <!-- drobdown 2 -->
+                                        <ul class="drobdown4">
+                                            <li>
+                                                <a href="#">
+                                                    Blog Grid
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Blog List
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#"> Blog Fullwidth </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> Blog Article </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nk-drop-item5" >
+                                <a href="#">Gallery</a>
+                            </li>
+                            <!-- drobdown Toournament -->
+                            <li class="nk-drop-item6">
+                                <a href="#">Tournament</a>                             
+                                <!-- drobdown 1 -->
+                                <ul class="dropdown5" style="margin-top: 43.7656px; margin-left: -9px;">
+                                    <li>
+                                        <a href="#">Tournament</a>
+                                    </li>
+                                    <li class="nk-drop-item7">
+                                        <a href="" >Team</a>      
+                                    </li>
+                                    <li>
+                                        <a href="#">Team Mate</a>
+                                    </li>
+                                </ul>
+                            </li>
+                           <!-- drobdown store -->
+                           <li class="nk-drop-item8">
+                            <a href="#">Store</a>                             
+                            <!-- drobdown 1 -->
+                            <ul class="dropdown6" style="    margin-top: 43.7656px;
+                            margin-left: -131.781px;">
+                                <li>
+                                    <a href="#">Tournament</a>
+                                </li>
+                                <li class="nk-drop-item9">
+                                    <a href="" >Team</a>      
+                                </li>
+                                <li>
+                                    <a href="#">Team Mate</a>
+                                </li>
+                                <li>
+                                    <a href="#">Team Mate</a>
+                                </li>
+                                <li>
+                                    <a href="#">Team Mate</a>
+                                </li>
+                                <li>
+                                    <a href="#">Team Mate</a>
+                                </li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="menu" id="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+             <!-- start Navbar mobile -->
+ <div id="nk-nav-mobile" class="">
+    <div class="nano has-scrollbar">
+        <div class="nano-content">
+            <a href="#" class="nk-nav-logo">
+                <!-- <img src="./Images/logo.svg" alt=""> -->
+            </a>
+        </div>
+        <div class="nk-navbar-mobile-content">
+            <ul class="nk-nav-2">
+                <li class="nk-drop-item-2">
+                    <a href="#" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); display: block;">
+                        Features  <i class="fa-solid fa-plus"></i>                                 
+                    </a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="#">Elements (Shortcodes)</a>
+                        </li>
+                        <li class="drob-1">
+                            <a href="#">forum <i class="fa-solid fa-plus"></i></a>
+                            <ul class="child-drob-1">
+                                <li>
+                                    <a href="#">forum</a>
+                                </li>
+                                <li>
+                                    <a href="#">Topics</a>
+                                </li>
+                                <li>
+                                    <a href="#">Single Topic</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Widgets</a>
+                        </li>
+                        <li>
+                            <a href="#">Comingsoon</a>
+                        </li>
+                        <li>
+                            <a href="#">offline</a>
+                        </li>
+                        <li>
+                            <a href="#">404</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="drob-mobile-7" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); display: block;">
+                    <a href="#">Blog <i class="fa-solid fa-plus"></i></a>
+                    <ul class="sec-drob-2">
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog With sidebar <i class="fa-solid fa-plus"></i></a>
+                            <ul class="child-drob-2">
+                                <li>
+                                    <a href="#">Blog Grid</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog list</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"> blog fullwidth</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog article</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nk-drob-item-4">
+                    <a href="#">Gallery</a>
+                </li>
+                <li class="nk-drob-item-5" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); display: block;">
+                    <a href="#">Tournament <i class="fa-solid fa-plus"></i></a>
+                    <ul class="child-drob-3">
+                        <li>
+                            <a href="#">Tournament</a>
+                        </li>
+                        <li>
+                            <a href="#">Teams</a>
+                        </li>
+                        <li>
+                            <a href="#">TeamMate</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nk-drob-item-6" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); display: block;">
+                    <a href="#">store <i class="fa-solid fa-plus"></i></a>
+                    <ul class="child-drob-4">
+                        <li>
+                            <a href="#">store</a>
+                        </li>
+                        <li>
+                            <a href="#">Product</a>
+                        </li>
+                        <li>
+                            <a href="#">Catalog</a>
+                        </li>
+                        <li>
+                            <a href="#">Catalog alt</a>
+                        </li>
+                        <li>
+                            <a href="#">Checkout</a>
+                        </li>
+                        <li>
+                            <a href="#">Cart</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- end navbar mobile -->
+            <!-- end Navbar -->
+        </header>
+        <main>
+            <!-- start slider -->
+                <div class="nk-main">
+                    <div class="nk-gap-2"></div>
+                    <div class="container">
+                        <!-- Flickity HTML init -->
+                        <div class="nk-image-slider">
+                            <div class="carousel carousel-main" data-flickity>
+                                <div class="nk-image-slider-item carousel-cell">
+                                    <img src="./Images/slider-img/slide-1.jpg" alt="">
+                                </div>
+                                <div class="nk-image-slider-item carousel-cell"><img src="./Images/slider-img/slide-2.jpg" alt=""></div>
+                                <div class="nk-image-slider-item carousel-cell"><img src="./Images/slider-img/slide-3.jpg" alt=""></div>
+                                <div class="nk-image-slider-item carousel-cell"><img src="./Images/slider-img/slide-4.jpg" alt=""></div>
+                                <div class="nk-image-slider-item carousel-cell"><img src="./Images/slider-img/slide-5.jpg" alt=""></div>
+                            </div>
+                            <div class="nk-image-slider-content nk-image-slider-content-visible">
+                                <div id="about" class="nano has-scrollbar">
+                                    <div class="nano-content" style="right: -17px;">
+                                        <h4>As we Passed, I remarked</h4>
+                                        <div class="nnan-paragraf">
+                                            <p>
+                                                As we passed, I remarked a beautiful church-spire rising above some old elms in the park; and before them, in the midst of a lawn, chimneys covered with ivy, and the windows shining in the sun.
+                                            </p>
+                                        </div>
+                                        <div class="button">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                    <div class="nano-pane">
+                                        <div class="nano-slider" style="height: 231px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nk-image-slider-thumbs">
+                                <div class="carousel carousel-nav"
+                                data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }' tabindex="0">
+                                    <div class="nk-image-slider-thumbs-item carousel-cell">
+                                        <img src="./Images/slider-img/slide-1.jpg" alt="">
+                                        <div class="nk-image-slider-thumbs-count"></div>
+                                    </div>
+                                    <div class="nk-image-slider-thumbs-item carousel-cell"><img src="./Images/slider-img/slide-2.jpg" alt=""></div>
+                                    <div class="nk-image-slider-thumbs-item carousel-cell"><img src="./Images/slider-img/slide-3.jpg" alt=""></div>
+                                    <div class="nk-image-slider-thumbs-item carousel-cell"><img src="./Images/slider-img/slide-4.jpg" alt=""></div>
+                                    <div class="nk-image-slider-thumbs-item carousel-cell"><img src="./Images/slider-img/slide-5.jpg" alt=""></div>
+                                </div> 
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            <!-- and slider -->
+            <!-- start categories -->
+            <div class="nk-gap-2"></div>
+            <div class="container">
+                <div class="row vertical-gap">
+                    <div class="col-lg-4">
+                        <div class="nk-feature-1">
+                            <div class="nk-feature-icon">
+                                <img src="./Images/categories-img/icon-mouse.svg" alt="">
+                            </div>
+                            <div class="nk-feature-title">
+                                <h3 class="nk-feature-title">
+                                    <a href="#">PC</a>
+                                </h3>
+                                <h3 class="nk-feature-title text-main-1">
+                                    <a href="#">View Games</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="nk-feature-1">
+                            <div class="nk-feature-icon">
+                                <img src="./Images/categories-img/icon-gamepad.svg" alt="">
+                            </div>
+                            <div class="nk-feature-title">
+                                <h3 class="nk-feature-title">
+                                    <a href="#">PC</a>
+                                </h3>
+                                <h3 class="nk-feature-title text-main-1">
+                                    <a href="#">View Games</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="nk-feature-1">
+                            <div class="nk-feature-icon">
+                                <img src="./Images/categories-img/icon-gamepad-2.svg" alt="">
+                            </div>
+                            <div class="nk-feature-title">
+                                <h3 class="nk-feature-title">
+                                    <a href="#">PC</a>
+                                </h3>
+                                <h3 class="nk-feature-title text-main-1">
+                                    <a href="#">View Games</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end categories -->
+            <!-- start latest new -->
+            <div class="nk-gap-2"></div>
+            <div class="container">
+                <h3 class="nk-decorated-h-2">
+                    <span class="span-1 text-main-1">New <span class="span-2">Latest</span></span>
+                </h3>
+            </div>
+            <div class="nk-gap-2"></div>
+            <div class="container">
+                <div class="section-navpills">
+                    <div class="d-flex align-items-start">
+                      <div class="nav-2 flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                            <div class="nk-news-box-item">
+                                <div class="nk-news-box-item-img">
+                                    <img src="./Images/latest-img/post-1-sm.jpg" alt="post-1-sm">
+                                </div>
+                                <div class="desc">
+                                    <h3 class="nk-news-box-item-title">
+                                        Smell magic in the air. Or...
+                                    </h3>
+                                    <p>
+                                        With what mingled joy and sorrow do I...
+                                    </p>
+                                    <div class="nk-news-box-item-date">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        Sep 18, 2018
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                            <div class="nk-news-box-item">
+                                <div class="nk-news-box-item-img">
+                                    <img src="./Images/latest-img/post-2-sm.jpg" alt="post-1-sm">
+                                </div>
+                                <div class="desc">
+                                    <h3 class="nk-news-box-item-title">
+                                        Smell magic in the air. Or...
+                                    </h3>
+                                    <p>
+                                        With what mingled joy and sorrow do I...
+                                    </p>
+                                    <div class="nk-news-box-item-date">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        Sep 18, 2018
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                            <div class="nk-news-box-item">
+                                <div class="nk-news-box-item-img">
+                                    <img src="./Images/latest-img/post-3-sm.jpg" alt="post-1-sm">
+                                </div>
+                                <div class="desc">
+                                    <h3 class="nk-news-box-item-title">
+                                        Smell magic in the air. Or...
+                                    </h3>
+                                    <p>
+                                        With what mingled joy and sorrow do I...
+                                    </p>
+                                    <div class="nk-news-box-item-date">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        Sep 18, 2018
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                            <div class="nk-news-box-item">
+                                <div class="nk-news-box-item-img">
+                                    <img src="./Images/latest-img/post-4-sm.jpg" alt="post-1-sm">
+                                </div>
+                                <div class="desc">
+                                    <h3 class="nk-news-box-item-title">
+                                        Smell magic in the air. Or...
+                                    </h3>
+                                    <p>
+                                        With what mingled joy and sorrow do I...
+                                    </p>
+                                    <div class="nk-news-box-item-date">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        Sep 18, 2018
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                            <div class="nk-news-box-item">
+                                <div class="nk-news-box-item-img">
+                                    <img src="./Images/latest-img/post-5-sm.jpg" alt="post-1-sm">
+                                </div>
+                                <div class="desc">
+                                    <h3 class="nk-news-box-item-title">
+                                        Smell magic in the air. Or...
+                                    </h3>
+                                    <p>
+                                        With what mingled joy and sorrow do I...
+                                    </p>
+                                    <div class="nk-news-box-item-date">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        Sep 18, 2018
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                            <div class="nk-news-box-item">
+                                <div class="nk-news-box-item-img">
+                                    <img src="./Images/latest-img/post-6-sm.jpg" alt="post-1-sm">
+                                </div>
+                                <div class="desc">
+                                    <h3 class="nk-news-box-item-title">
+                                        Smell magic in the air. Or...
+                                    </h3>
+                                    <p>
+                                        With what mingled joy and sorrow do I...
+                                    </p>
+                                    <div class="nk-news-box-item-date">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        Sep 18, 2018
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                      </div>
+                      <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                            <div class="nk-new-box-2">
+                                <div class="nk-news-box-each-info">
+                                    <div class="nk-new-box-images">
+                                        <img src="./Images/latest-img/post-1.jpg" alt="">
+                                        <span class="nk-news-box-item-categories">
+                                            <span class="bg-main-4">MMO</span>
+                                        </span>
+                                    </div>
+                                    <div class="nk-new-box-par">
+                                        <div class="nk-new-box-title-2">
+                                            <h3>SMELL MAGIC IN THE AIR. OR MAYBE BARBECUE</h3>
+                                        </div>
+                                        <div class="nk-new-box-desc-2">
+                                            <p>
+                                                With what mingled joy and sorrow do I take up the pen to write to my dearest friend! Oh, what a change between to-day and yesterday! Now I am friendless and alone...
+                                            </p>
+                                        </div>
+                                        <div class="nk-new-box-link-2">
+                                            <a href="#">Read More</a>
+                                            <div class="nk-new-box-tgl">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                Sep 18, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <div class="nk-new-box-2">
+                                <div class="nk-news-box-each-info">
+                                    <div class="nk-new-box-images">
+                                        <img src="./Images/latest-img/post-2.jpg" alt="">
+                                        <span class="nk-news-box-item-categories">
+                                            <span class="bg-main-4">MMO</span>
+                                        </span>
+                                    </div>
+                                    <div class="nk-new-box-par">
+                                        <div class="nk-new-box-title-2">
+                                            <h3>SMELL MAGIC IN THE AIR. OR MAYBE BARBECUE</h3>
+                                        </div>
+                                        <div class="nk-new-box-desc-2">
+                                            <p>
+                                                With what mingled joy and sorrow do I take up the pen to write to my dearest friend! Oh, what a change between to-day and yesterday! Now I am friendless and alone...
+                                            </p>
+                                        </div>
+                                        <div class="nk-new-box-link-2">
+                                            <a href="#">Read More</a>
+                                            <div class="nk-new-box-tgl">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                Sep 18, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                            <div class="nk-new-box-2">
+                                <div class="nk-news-box-each-info">
+                                    <div class="nk-new-box-images">
+                                        <img src="./Images/latest-img/post-3.jpg" alt="">
+                                        <span class="nk-news-box-item-categories">
+                                            <span class="bg-main-4">MMO</span>
+                                        </span>
+                                    </div>
+                                    <div class="nk-new-box-par">
+                                        <div class="nk-new-box-title-2">
+                                            <h3>SMELL MAGIC IN THE AIR. OR MAYBE BARBECUE</h3>
+                                        </div>
+                                        <div class="nk-new-box-desc-2">
+                                            <p>
+                                                With what mingled joy and sorrow do I take up the pen to write to my dearest friend! Oh, what a change between to-day and yesterday! Now I am friendless and alone...
+                                            </p>
+                                        </div>
+                                        <div class="nk-new-box-link-2">
+                                            <a href="#">Read More</a>
+                                            <div class="nk-new-box-tgl">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                Sep 18, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                            <div class="nk-new-box-2">
+                                <div class="nk-news-box-each-info">
+                                    <div class="nk-new-box-images">
+                                        <img src="./Images/latest-img/post-4.jpg" alt="">
+                                        <span class="nk-news-box-item-categories">
+                                            <span class="bg-main-4">MMO</span>
+                                        </span>
+                                    </div>
+                                    <div class="nk-new-box-par">
+                                        <div class="nk-new-box-title-2">
+                                            <h3>SMELL MAGIC IN THE AIR. OR MAYBE BARBECUE</h3>
+                                        </div>
+                                        <div class="nk-new-box-desc-2">
+                                            <p>
+                                                With what mingled joy and sorrow do I take up the pen to write to my dearest friend! Oh, what a change between to-day and yesterday! Now I am friendless and alone...
+                                            </p>
+                                        </div>
+                                        <div class="nk-new-box-link-2">
+                                            <a href="#">Read More</a>
+                                            <div class="nk-new-box-tgl">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                Sep 18, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+                            <div class="nk-new-box-2">
+                                <div class="nk-news-box-each-info">
+                                    <div class="nk-new-box-images-5">
+                                        <img src="./Images/latest-img/post-5.jpg" alt="">
+                                        <span class="nk-news-box-item-categories">
+                                            <span class="bg-main-4">MMO</span>
+                                        </span>
+                                    </div>
+                                    <div class="nk-new-box-par">
+                                        <div class="nk-new-box-title-2">
+                                            <h3>SMELL MAGIC IN THE AIR. OR MAYBE BARBECUE</h3>
+                                        </div>
+                                        <div class="nk-new-box-desc-2">
+                                            <p>
+                                                With what mingled joy and sorrow do I take up the pen to write to my dearest friend! Oh, what a change between to-day and yesterday! Now I am friendless and alone...
+                                            </p>
+                                        </div>
+                                        <div class="nk-new-box-link-2">
+                                            <a href="#">Read More</a>
+                                            <div class="nk-new-box-tgl">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                Sep 18, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                        </div>
+                  </div>
+                  <div class="nk-gap-2"></div>
+                  <!-- start post -->
+                  <div class="nk-blog-grid">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3">
+                                <div class="nk-blog-post">
+                                    <a href="#">
+                                        <img src="./Images/latest-img/post-5-mid.jpg" alt="post-1" class="nk-post-img">
+                                        <span class="nk-post-comments-count">
+                                            13
+                                        </span>
+                                        <span class="nk-post-categories">
+                                            <span class="bg-main-5">Indie</span>
+                                        </span>
+                                    </a>
+                                    <div class="nk-gap-2"></div>
+                                    <h2 class="nk-post-title h4">
+                                        <a href="#">
+                                          He made his passenger captain of one
+                                        </a>
+                                    </h2>
+                                    <div class="nk-post-text">
+                                        <p>
+                                          Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                        </p>
+                                    </div>
+                                    <div class="nk-gap-2"></div>
+                                    <div class="nk-new-box-link-2">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                    <div class="nk-new-tgl">
+                                      <i class="fa-solid fa-calendar-days"></i>
+                                      Sep 18, 2018
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="nk-blog-post">
+                                    <a href="#">
+                                        <img src="./Images/latest-img/post-6-mid.jpg" alt="post-1" class="nk-post-img">
+                                        <span class="nk-post-comments-count">
+                                            13
+                                        </span>
+                                        <span class="nk-post-categories">
+                                            <span class="bg-main-5">Racing</span>
+                                        </span>
+                                    </a>
+                                    <div class="nk-gap-2"></div>
+                                    <h2 class="nk-post-title h4">
+                                        <a href="#">
+                                          He made his passenger captain of one
+                                        </a>
+                                    </h2>
+                                    <div class="nk-post-text">
+                                        <p>
+                                          Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                        </p>
+                                    </div>
+                                    <div class="nk-gap-2"></div>
+                                    <div class="nk-new-box-link-2">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                    <div class="nk-new-tgl">
+                                      <i class="fa-solid fa-calendar-days"></i>
+                                      Sep 18, 2018
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="nk-blog-post">
+                                    <a href="#">
+                                        <img src="./Images/latest-img/post-8-mid.jpg" alt="post-1" class="nk-post-img">
+                                        <span class="nk-post-comments-count">
+                                            13
+                                        </span>
+                                        <span class="nk-post-categories">
+                                            <span class="bg-main-5">Moba</span>
+                                        </span>
+                                    </a>
+                                    <div class="nk-gap-2"></div>
+                                    <h2 class="nk-post-title h4">
+                                        <a href="#">
+                                          He made his passenger captain of one
+                                        </a>
+                                    </h2>
+                                    <div class="nk-post-text">
+                                        <p>
+                                          Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                        </p>
+                                    </div>
+                                    <div class="nk-gap-2"></div>
+                                    <div class="nk-new-box-link-2">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                    <div class="nk-new-tgl">
+                                      <i class="fa-solid fa-calendar-days"></i>
+                                      Sep 18, 2018
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="nk-blog-post">
+                                    <a href="#">
+                                        <img src="./Images/latest-img/post-7-mid.jpg" alt="post-1" class="nk-post-img">
+                                        <span class="nk-post-comments-count">
+                                            13
+                                        </span>
+                                        <span class="nk-post-categories">
+                                            <span class="bg-main-5">Adventure</span>
+                                        </span>
+                                    </a>
+                                    <div class="nk-gap-2"></div>
+                                    <h2 class="nk-post-title h4">
+                                        <a href="#">
+                                          He made his passenger captain of one
+                                        </a>
+                                    </h2>
+                                    <div class="nk-post-text">
+                                        <p>
+                                          Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                        </p>
+                                    </div>
+                                    <div class="nk-gap-2"></div>
+                                    <div class="nk-new-box-link-2">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                    <div class="nk-new-tgl">
+                                      <i class="fa-solid fa-calendar-days"></i>
+                                      Sep 18, 2018
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!-- end post -->
+            </div>
+            </div>
+            <!-- end latest new -->
+            <!-- start latest post -->
+            <div class="nk-gap-2"></div>
+            <div class="container">
+                <div class="row vertical-gap">              
+                    <div class="col-lg-8">
+                        <!-- start news -->
+                        <h3 class="nk-decorated-h-2">
+                            <span class="span-1 text-main-1">New <span class="span-2">Latest</span></span>
+                        </h3>
+                        <div class="nk-gap-2"></div>
+                        <div class="nk-blog-grid">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="nk-blog-post">
+                                        <a href="#">
+                                            <img src="./Images/latest-img/post-5-mid.jpg" alt="post-1" class="nk-post-img">
+                                            <span class="nk-post-comments-count">
+                                                13
+                                            </span>
+                                            <span class="nk-post-categories">
+                                                <span class="bg-main-5">Indie</span>
+                                            </span>
+                                        </a>
+                                        <div class="nk-gap-2"></div>
+                                        <h2 class="nk-post-title h4">
+                                            <a href="#">
+                                              He made his passenger captain of one
+                                            </a>
+                                        </h2>
+                                        <div class="nk-post-by">
+                                            <img src="./Images/latest-img/avatar-3.jpg" alt="">
+                                            by
+                                            <a href="#">Wolfeinstein</a>
+                                            in juli 23,2018
+                                        </div>
+                                        <div class="nk-post-text">
+                                            <p>
+                                              Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                            </p>
+                                        </div>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-new-box-link-3">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                   
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="nk-blog-post">
+                                        <a href="#">
+                                            <img src="./Images/latest-img/post-6-mid.jpg" alt="post-1" class="nk-post-img">
+                                            <span class="nk-post-comments-count">
+                                                13
+                                            </span>
+                                            <span class="nk-post-categories">
+                                                <span class="bg-main-5">Indie</span>
+                                            </span>
+                                        </a>
+                                        <div class="nk-gap-2"></div>
+                                        <h2 class="nk-post-title h4">
+                                            <a href="#">
+                                              He made his passenger captain of one
+                                            </a>
+                                        </h2>
+                                        <div class="nk-post-by">
+                                            <img src="./Images/latest-img/avatar-3.jpg" alt="">
+                                            by
+                                            <a href="#">Wolfeinstein</a>
+                                            in juli 23,2018
+                                        </div>
+                                        <div class="nk-post-text">
+                                            <p>
+                                              Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                            </p>
+                                        </div>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-new-box-link-3">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end news -->
+                        <!-- start latest matchess -->
+                        <div class="nk-gap-2"></div>
+                        <div class="container">
+                            <h3 class="nk-decorated-h-2">
+                                <span class="span-1 text-main-1">latest<span class="span-2">matches</span>
+                            </span>
+                            </h3>
+                        <div class="nk-gap-2"></div> 
+                           <div class="row">
+                               <div class="col md-4">
+                                   <div class="nk-match-score bg-dark-3">how playing</div>
+                                   <div class="nk-gap-2"></div>
+                                   <div class="nk-widget-match p-0">
+                                       <div class="nk-widget-match-teams">
+                                           <div class="nk-widget-match-team-logo">
+                                               <img src="./Images/team-1.jpg" alt="">
+                                           </div>
+                                           <div class="nk-widget-match-vs">VS</div>
+                                           <div class="nk-widget-match-team-logo">
+                                            <img src="./Images/team-2.jpg" alt="">
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="nk-gap-2"></div>
+                                   <div class="par">
+                                    <p>
+                                        As she said this she looked down at her hands and was surprised to see.
+                                       </p>
+                                   </div>
+                                   <a href="#" class="nk-btn nk-btn-rounded nk-btn-color-main-1">match Details</a>
+                               </div>
+                               <div class="col-md-8">
+                                <div class="responsive-embed responsive-embed-16x9">
+                                    <iframe src="https://player.twitch.tv/?channel=lirik&autoplay=false&parent=html.nkdev.info" frameborder="0" allowfullscreen="true" scrolling="no" height="378px" width="620px"></iframe>
+                                </div>
+                               </div>
+                           </div>
+                           <div class="nk-gap-2"></div> 
+                           <div class="nk-match">
+                               <div class="nk-match-team-left">
+                                   <a href="#">
+                                       <span class="nk-match-team-logo">
+                                        <img src="./Images/team-1.jpg" alt="">
+                                       </span>
+                                       <span class="nk-match-team-name">
+                                        SK Telecom T1 
+                                       </span>
+                                   </a>
+                               </div>
+                               <div class="nk-match-status">
+                                   <a href="#">
+                                       <span class="nk-match-status-vs">
+                                        VS
+                                       </span>
+                                       <span class="nk-match-status-date">
+                                        Apr 28, 2018 8:00 pm
+                                       </span>
+                                       <span class="nk-match-score bg-danger">
+                                        2 : 17 
+                                       </span>
+                                   </a>
+                               </div>
+                               <div class="nk-match-team-right">
+                                   <a href="#">
+                                       <span class="nk-match-team-name">
+                                        Cloud 9 
+                                       </span>
+                                       <span class="nk-match-team-logo">
+                                        <img src="./Images/team-2.jpg" alt="">
+                                       </span>
+                                   </a>
+                               </div>
+                           </div>
+                           <div class="nk-match">
+                            <div class="nk-match-team-left">
+                                <a href="#">
+                                    <span class="nk-match-team-logo">
+                                     <img src="./Images/team-1.jpg" alt="">
+                                    </span>
+                                    <span class="nk-match-team-name">
+                                     SK Telecom T1 
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="nk-match-status">
+                                <a href="#">
+                                    <span class="nk-match-status-vs">
+                                     VS
+                                    </span>
+                                    <span class="nk-match-status-date">
+                                     Apr 28, 2018 8:00 pm
+                                    </span>
+                                    <span class="nk-match-score bg-danger">
+                                     2 : 17 
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="nk-match-team-right">
+                                <a href="#">
+                                    <span class="nk-match-team-name">
+                                     Cloud 9 
+                                    </span>
+                                    <span class="nk-match-team-logo">
+                                     <img src="./Images/team-2.jpg" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nk-match">
+                            <div class="nk-match-team-left">
+                                <a href="#">
+                                    <span class="nk-match-team-logo">
+                                     <img src="./Images/team-1.jpg" alt="">
+                                    </span>
+                                    <span class="nk-match-team-name">
+                                     SK Telecom T1 
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="nk-match-status">
+                                <a href="#">
+                                    <span class="nk-match-status-vs">
+                                     VS
+                                    </span>
+                                    <span class="nk-match-status-date">
+                                     Apr 28, 2018 8:00 pm
+                                    </span>
+                                    <span class="nk-match-score bg-danger">
+                                     2 : 17 
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="nk-match-team-right">
+                                <a href="#">
+                                    <span class="nk-match-team-name">
+                                     Cloud 9 
+                                    </span>
+                                    <span class="nk-match-team-logo">
+                                     <img src="./Images/team-2.jpg" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- end latest matches -->
+                        <!-- start tabbed news -->
+                        <div class="nk-gap-2"></div> 
+                        <div class="container">
+                            <h3 class="nk-decorated-h-2">
+                                <span class="span-1 text-main-1">tabbed<span class="span-2">News</span>
+                            </span>
+                            </h3>
+                        </div>
+                        <div class="nk-gap-2"></div> 
+                        <div class="nk-tabs">
+                            <ul class="nav nav-tabs nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item tabs-list" role="presentation">
+                                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Action</button>
+                                </li>
+                                <li class="nav-item tabs-list" role="presentation">
+                                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">MMO</button>
+                                </li>
+                                <li class="nav-item tabs-list" role="presentation">
+                                  <button class="nav-link" id="pills-contact-tab-2" data-bs-toggle="pill" data-bs-target="#pills-contact-2" type="button" role="tab" aria-controls="pills-contact-tab-2" aria-selected="false">Strategy</button>
+                                </li>
+                                <li class="nav-item tabs-list" role="presentation">
+                                    <button class="nav-link" id="pills-contact-tab-3" data-bs-toggle="pill" data-bs-target="#pills-contact-3" type="button" role="tab" aria-controls="pills-contact-3" aria-selected="false">Adventure</button>
+                                </li>
+                                <li class="nav-item tabs-list" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab-4" data-bs-toggle="pill" data-bs-target="#pills-contact-4" type="button" role="tab" aria-controls="pills-profile-4" aria-selected="false">MMO</button>
+                                </li>
+                                <div class="nk-gap"></div>
+                                <li class="nav-item tabs-list" role="presentation">
+                                    <button class="nav-link" id="pills-contact-tab-6" data-bs-toggle="pill" data-bs-target="#pills-contact-6" type="button" role="tab" aria-controls="pills-contact-6" aria-selected="false">Adventure</button>
+                                </li>
+                              </ul>
+                              <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                    <div class="nk-blog-post-2">
+                                        <a href="#">
+                                            <img src="./Images/post-2-fw.jpg" alt="post-1" class="nk-post-img">
+                                            <span class="nk-post-categories-2">
+                                                <span class="bg-danger">Action</span>
+                                            </span>
+                                        </a>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-news-box-item-date-2">
+                                           <div class="pad-1">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            Sep 18, 2018
+                                           </div>
+                                            <div class="pad">
+                                                <i class="fa-solid fa-comment"></i>
+                                            <a href="#">7 comments</a>
+                                            </div>
+                                        </div>
+                                        <h2 class="nk-post-title h4">
+                                            <a href="#">
+                                              He made his passenger captain of one
+                                            </a>
+                                        </h2>
+                                        <div class="nk-post-text">
+                                            <p>
+                                              Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                            </p>
+                                        </div>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-new-box-link-3">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                  
+                                    </div>
+                                    <div class="pilihan">
+                                        <div class="nk-blog-post">
+                                            <div class="row vertical-gap">
+                                                <div class="col-lg-3 col-md-5">
+                                                    <a href="#">
+                                                        <img src="./Images/post-7-mid-square.jpg" alt="post-1" class="nk-post-img">
+                                                        <span class="nk-post-categories-3">
+                                                            <span class="bg-danger">Action</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-9 col-md-7">
+                                                    <div class="ukuran">
+                                                        <h2 class="nk-post-title h4" style="    margin-top: 16px;">
+                                                            <a href="#">
+                                                              He made his passenger captain of one
+                                                            </a>
+                                                        </h2>
+                                                        <div class="nk-news-box-item-date-2">
+                                                            <div class="pad-1">
+                                                             <i class="fa-solid fa-calendar-days"></i>
+                                                             Sep 18, 2018
+                                                            </div>
+                                                             <div class="pad">
+                                                                 <i class="fa-solid fa-comment"></i>
+                                                             <a href="#">7 comments</a>
+                                                             </div>
+                                                         </div>
+                                                        <div class="nk-post-text">
+                                                            <p>
+                                                              Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nk-blog-post">
+                                            <div class="row vertical-gap">
+                                                <div class="col-lg-3 col-md-5">
+                                                    <a href="#">
+                                                        <img src="./Images/post-9-mid-square.jpg" alt="post-1" class="nk-post-img">
+                                                        <span class="nk-post-categories-3">
+                                                            <span class="bg-danger">Action</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-9 col-md-7">
+                                                    <div class="ukuran">
+                                                        <h2 class="nk-post-title h4" style="    margin-top: 16px;">
+                                                            <a href="#">
+                                                              He made his passenger captain of one
+                                                            </a>
+                                                        </h2>
+                                                        <div class="nk-news-box-item-date-2">
+                                                            <div class="pad-1">
+                                                             <i class="fa-solid fa-calendar-days"></i>
+                                                             Sep 18, 2018
+                                                            </div>
+                                                             <div class="pad">
+                                                                 <i class="fa-solid fa-comment"></i>
+                                                             <a href="#">7 comments</a>
+                                                             </div>
+                                                         </div>
+                                                        <div class="nk-post-text">
+                                                            <p>
+                                                              Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                    <div class="nk-blog-post-2">
+                                        <a href="#">
+                                            <img src="./Images/post-1-fw.jpg" alt="post-1" class="nk-post-img">
+                                            <span class="nk-post-categories-2">
+                                                <span class="bg-danger">MMO</span>
+                                            </span>
+                                        </a>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-news-box-item-date-2">
+                                           <div class="pad-1">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            Sep 18, 2018
+                                           </div>
+                                            <div class="pad">
+                                                <i class="fa-solid fa-comment"></i>
+                                            <a href="#">7 comments</a>
+                                            </div>
+                                        </div>
+                                        <h2 class="nk-post-title h4">
+                                            <a href="#">
+                                              He made his passenger captain of one
+                                            </a>
+                                        </h2>
+                                        <div class="nk-post-text">
+                                            <p>
+                                              Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                            </p>
+                                        </div>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-new-box-link-3">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                  
+                                    </div>
+                                    <div class="nk-blog-post">
+                                        <div class="row vertical-gap">
+                                            <div class="col-lg-3 col-md-5">
+                                                <a href="#">
+                                                    <img src="./Images/post-7-mid-square.jpg" alt="post-1" class="nk-post-img">
+                                                    <span class="nk-post-categories-3">
+                                                        <span class="bg-danger">MMO</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-9 col-md-7">
+                                                <div class="ukuran">
+                                                    <h2 class="nk-post-title h4" style="    margin-top: 16px;">
+                                                        <a href="#">
+                                                          He made his passenger captain of one
+                                                        </a>
+                                                    </h2>
+                                                    <div class="nk-news-box-item-date-2">
+                                                        <div class="pad-1">
+                                                         <i class="fa-solid fa-calendar-days"></i>
+                                                         Sep 18, 2018
+                                                        </div>
+                                                         <div class="pad">
+                                                             <i class="fa-solid fa-comment"></i>
+                                                         <a href="#">7 comments</a>
+                                                         </div>
+                                                     </div>
+                                                    <div class="nk-post-text">
+                                                        <p>
+                                                          Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact-2" role="tabpanel" aria-labelledby="pills-contact-tab-2" tabindex="0">
+                                    <div class="nk-blog-post-2">
+                                        <a href="#">
+                                            <img src="./Images/post-3-fw.jpg" alt="post-1" class="nk-post-img">
+                                            <span class="nk-post-categories-2">
+                                                <span class="bg-danger">MMO</span>
+                                            </span>
+                                        </a>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-news-box-item-date-2">
+                                           <div class="pad-1">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            Sep 18, 2018
+                                           </div>
+                                            <div class="pad">
+                                                <i class="fa-solid fa-comment"></i>
+                                            <a href="#">7 comments</a>
+                                            </div>
+                                        </div>
+                                        <h2 class="nk-post-title h4">
+                                            <a href="#">
+                                              He made his passenger captain of one
+                                            </a>
+                                        </h2>
+                                        <div class="nk-post-text">
+                                            <p>
+                                              Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                            </p>
+                                        </div>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-new-box-link-3">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                  
+                                    </div>
+                                    <div class="nk-blog-post">
+                                        <div class="row vertical-gap">
+                                            <div class="col-lg-3 col-md-5">
+                                                <a href="#">
+                                                    <img src="./Images/post-7-mid-square.jpg" alt="post-1" class="nk-post-img">
+                                                    <span class="nk-post-categories-3">
+                                                        <span class="bg-danger">MMO</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-9 col-md-7">
+                                                <div class="ukuran">
+                                                    <h2 class="nk-post-title h4" style="    margin-top: 16px;">
+                                                        <a href="#">
+                                                          He made his passenger captain of one
+                                                        </a>
+                                                    </h2>
+                                                    <div class="nk-news-box-item-date-2">
+                                                        <div class="pad-1">
+                                                         <i class="fa-solid fa-calendar-days"></i>
+                                                         Sep 18, 2018
+                                                        </div>
+                                                         <div class="pad">
+                                                             <i class="fa-solid fa-comment"></i>
+                                                         <a href="#">7 comments</a>
+                                                         </div>
+                                                     </div>
+                                                    <div class="nk-post-text">
+                                                        <p>
+                                                          Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact-3" role="tabpanel" aria-labelledby="pills-contact-tab-3" tabindex="0">
+                                    <div class="nk-blog-post-2">
+                                        <a href="#">
+                                            <img src="./Images/post-6-fw.jpg" alt="post-1" class="nk-post-img">
+                                            <span class="nk-post-categories-2">
+                                                <span class="bg-danger">MMO</span>
+                                            </span>
+                                        </a>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-news-box-item-date-2">
+                                           <div class="pad-1">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            Sep 18, 2018
+                                           </div>
+                                            <div class="pad">
+                                                <i class="fa-solid fa-comment"></i>
+                                            <a href="#">7 comments</a>
+                                            </div>
+                                        </div>
+                                        <h2 class="nk-post-title h4">
+                                            <a href="#">
+                                              He made his passenger captain of one
+                                            </a>
+                                        </h2>
+                                        <div class="nk-post-text">
+                                            <p>
+                                              Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                            </p>
+                                        </div>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-new-box-link-3">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                  
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact-4" role="tabpanel" aria-labelledby="pills-contact-tab-4" tabindex="0">
+                                    <div class="nk-blog-post-2">
+                                        <a href="#">
+                                            <img src="./Images/post-2-fw.jpg" alt="post-1" class="nk-post-img">
+                                            <span class="nk-post-categories-2">
+                                                <span class="bg-danger">MMO</span>
+                                            </span>
+                                        </a>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-news-box-item-date-2">
+                                           <div class="pad-1">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            Sep 18, 2018
+                                           </div>
+                                            <div class="pad">
+                                                <i class="fa-solid fa-comment"></i>
+                                            <a href="#">7 comments</a>
+                                            </div>
+                                        </div>
+                                        <h2 class="nk-post-title h4">
+                                            <a href="#">
+                                              He made his passenger captain of one
+                                            </a>
+                                        </h2>
+                                        <div class="nk-post-text">
+                                            <p>
+                                              Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                            </p>
+                                        </div>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-new-box-link-3">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                  
+                                    </div>
+                                    <div class="nk-blog-post">
+                                        <div class="row vertical-gap">
+                                            <div class="col-lg-3 col-md-5">
+                                                <a href="#">
+                                                    <img src="./Images/post-7-mid-square.jpg" alt="post-1" class="nk-post-img">
+                                                    <span class="nk-post-categories-3">
+                                                        <span class="bg-danger">MMO</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-9 col-md-7">
+                                                <div class="ukuran">
+                                                    <h2 class="nk-post-title h4" style="    margin-top: 16px;">
+                                                        <a href="#">
+                                                          He made his passenger captain of one
+                                                        </a>
+                                                    </h2>
+                                                    <div class="nk-news-box-item-date-2">
+                                                        <div class="pad-1">
+                                                         <i class="fa-solid fa-calendar-days"></i>
+                                                         Sep 18, 2018
+                                                        </div>
+                                                         <div class="pad">
+                                                             <i class="fa-solid fa-comment"></i>
+                                                         <a href="#">7 comments</a>
+                                                         </div>
+                                                     </div>
+                                                    <div class="nk-post-text">
+                                                        <p>
+                                                          Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nk-blog-post">
+                                        <div class="row vertical-gap">
+                                            <div class="col-lg-3 col-md-5">
+                                                <a href="#">
+                                                    <img src="./Images/post-7-mid-square.jpg" alt="post-1" class="nk-post-img">
+                                                    <span class="nk-post-categories-3">
+                                                        <span class="bg-danger">MMO</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-9 col-md-7">
+                                                <div class="ukuran">
+                                                    <h2 class="nk-post-title h4" style="    margin-top: 16px;">
+                                                        <a href="#">
+                                                          He made his passenger captain of one
+                                                        </a>
+                                                    </h2>
+                                                    <div class="nk-news-box-item-date-2">
+                                                        <div class="pad-1">
+                                                         <i class="fa-solid fa-calendar-days"></i>
+                                                         Sep 18, 2018
+                                                        </div>
+                                                         <div class="pad">
+                                                             <i class="fa-solid fa-comment"></i>
+                                                         <a href="#">7 comments</a>
+                                                         </div>
+                                                     </div>
+                                                    <div class="nk-post-text">
+                                                        <p>
+                                                          Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact-6" role="tabpanel" aria-labelledby="pills-contact-tab-6" tabindex="0">
+                                    <div class="nk-blog-post-2">
+                                        <a href="#">
+                                            <img src="./Images/post-5-fw.jpg" alt="post-1" class="nk-post-img">
+                                            <span class="nk-post-categories-2">
+                                                <span class="bg-danger">MMO</span>
+                                            </span>
+                                        </a>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-news-box-item-date-2">
+                                           <div class="pad-1">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            Sep 18, 2018
+                                           </div>
+                                            <div class="pad">
+                                                <i class="fa-solid fa-comment"></i>
+                                            <a href="#">7 comments</a>
+                                            </div>
+                                        </div>
+                                        <h2 class="nk-post-title h4">
+                                            <a href="#">
+                                              He made his passenger captain of one
+                                            </a>
+                                        </h2>
+                                        <div class="nk-post-text">
+                                            <p>
+                                              Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door...
+                                            </p>
+                                        </div>
+                                        <div class="nk-gap-2"></div>
+                                        <div class="nk-new-box-link-3">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                  
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        <!-- end tabbed news -->
+                        <!-- start latest picture -->
+                        <div class="nk-gap-2"></div>
+                        <div class="container">
+                            <h3 class="nk-decorated-h-2">
+                                <span class="span-1 text-main-1">Latest <span class="span-2">picture</span></span>
+                            </h3>
+                            <div class="nk-popup-gallery">
+                                <div class="row vertical-gap sm-gap">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="nk-gallery-item-box">
+                                            <a href="./Images/gallery/gallery-1.jpg" data-lightbox="image-1" data-title="My caption">
+                                                <img src="./Images/gallery/gallery-1-thumb.jpg" alt="" data-lightbox="roadtrip">
+                                                <div class="overlay">
+                                                    <div class="nk-gallery-item-overlay">
+                                                        <span class="ion-eye">
+                                                        </span>
+                                                        <div class="icon">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                  
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="nk-gallery-item-box">
+                                            <a href="./Images/gallery/gallery-3.jpg" data-lightbox="image-3" data-title="My caption">
+                                                <img src="./Images/gallery/gallery-3-thumb.jpg" alt="">
+                                                <div class="overlay">
+                                                    <div class="nk-gallery-item-overlay">
+                                                        <span class="ion-eye">
+                                                        </span>
+                                                        <div class="icon">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>                                         
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="nk-gallery-item-box">
+                                            <a href="./Images/gallery/gallery-4.jpg" data-lightbox="image-4" data-title="My caption">
+                                                <img src="./Images/gallery/gallery-4-thumb.jpg" alt="">
+                                                <div class="overlay">
+                                                    <div class="nk-gallery-item-overlay">
+                                                        <span class="ion-eye">
+                                                        </span>
+                                                        <div class="icon">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="nk-gallery-item-box">
+                                            <a href="./Images/gallery/gallery-5.jpg" data-lightbox="image-5" data-title="My caption">
+                                                <img src="./Images/gallery/gallery-5-thumb.jpg" alt="">
+                                                <div class="overlay">
+                                                    <div class="nk-gallery-item-overlay">
+                                                        <span class="ion-eye">
+                                                        </span>
+                                                        <div class="icon">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>                                          
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="nk-gallery-item-box">
+                                            <a href="./Images/gallery/gallery-6.jpg" data-lightbox="image-6" data-title="My caption">
+                                                <img src="./Images/gallery/gallery-6-thumb.jpg" alt="">
+                                                <div class="overlay">
+                                                    <div class="nk-gallery-item-overlay">
+                                                        <span class="ion-eye">
+                                                        </span>
+                                                        <div class="icon">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>                                          
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="nk-gallery-item-box">
+                                            <a href="./Images/gallery/gallery-3.jpg" data-lightbox="image-6" data-title="My caption">
+                                                <img src="./Images/gallery/gallery-3-thumb.jpg" alt="">
+                                                <div class="overlay">
+                                                    <div class="nk-gallery-item-overlay">
+                                                        <span class="ion-eye">
+                                                        </span>
+                                                        <div class="icon">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>                                          
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- last latest picture-->
+                        <!-- start Best selling -->
+                        <div class="nk-gap-2"></div>
+                        <div class="container">
+                            <h3 class="nk-decorated-h-2">
+                                <span class="span-1 text-main-1">Best <span class="span-2">Selling</span></span>
+                            </h3>
+                            <div class="nk-gap-2"></div>
+                            <div class="row vertical-gap">
+                                <div class="col-md-6">
+                                    <div class="nk-product-cat">
+                                        <a href="#" class="nk-product-image">
+                                            <img src="./Images/product-11-xs.jpg" alt="">
+                                        </a>
+                                        <div class="nk-product-count">
+                                            <div class="nk-product-title">
+                                                <a href="#">she gabe my mother</a>
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <div class="nk-product-rating">
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <div class="nk-product-price">
+                                                € 14.00
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <a href="#" class="nk-btn nk-btn-rounded nk-btn-color-dark-3 nk-btn-hover-color-main-1">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="nk-product-cat">
+                                        <a href="#" class="nk-product-image">
+                                            <img src="./Images/product-12-xs.jpg" alt="">
+                                        </a>
+                                        <div class="nk-product-count">
+                                            <div class="nk-product-title">
+                                                <a href="#">she gabe my mother</a>
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <div class="nk-product-rating">
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <div class="nk-product-price">
+                                                € 14.00
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <a href="#" class="nk-btn nk-btn-rounded nk-btn-color-dark-3 nk-btn-hover-color-main-1">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="nk-product-cat">
+                                        <a href="#" class="nk-product-image">
+                                            <img src="./Images/product-13-xs.jpg" alt="">
+                                        </a>
+                                        <div class="nk-product-count">
+                                            <div class="nk-product-title">
+                                                <a href="#">she gabe my mother</a>
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <div class="nk-product-rating">
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <div class="nk-product-price">
+                                                € 14.00
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <a href="#" class="nk-btn nk-btn-rounded nk-btn-color-dark-3 nk-btn-hover-color-main-1">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="nk-product-cat">
+                                        <a href="#" class="nk-product-image">
+                                            <img src="./Images/product-14-xs.jpg" alt="">
+                                        </a>
+                                        <div class="nk-product-count">
+                                            <div class="nk-product-title">
+                                                <a href="#">she gabe my mother</a>
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <div class="nk-product-rating">
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <div class="nk-product-price">
+                                                € 14.00
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                            <a href="#" class="nk-btn nk-btn-rounded nk-btn-color-dark-3 nk-btn-hover-color-main-1">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- last best selling -->
+                        <div class="nk-gap-2"></div>
+                    </div>
+                      <!-- start Sidebar -->
+                      <div class="col-lg-4 nk-sidebar-sticky-parent">
+                        <aside class="nk-sidebar nk-sidebar-right nk-sidebar-sticky">
+                            <div>
+                                <div class="nk-widget">
+                                    <div class="nk-widget-content">
+                                        <form action="#" class="nk-form nk-form-style-1" novalidate="novalidate">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control-2" placeholder="Type something...">
+                                                <button class="nk-btn nk-btn-color-main-1 nk-btn-2">
+                                                    <span class="ion-search">
+                                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="nk-widget nk-widget-highlighted">
+                                    <h3 class="nk-widget-title">
+                                        <span class="span-1 text-main-1">New <span class="span-2">Latest</span></span>
+                                    </h3>
+                                    <div class="nk-widget-content">
+                                        <ul class="nk-social-links-3 nk-social-links-cols-4">
+                                            <li>
+                                                <a href="#" class="nk-social-twitch link-sosial">
+                                                    <i class="fa-brands fa-twitch"></i>
+                                                </a>
+                                            </li>  
+                                            <li>
+                                                <a href="#" class="nk-social-instagram link-sosial">
+                                                    <i class="fa-brands fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nk-social-facebook link-sosial">
+                                                    <i class="fa-brands fa-facebook"></i>
+                                                </a>
+                                            </li> 
+                                            <li>
+                                                <a href="#" class="nk-social-google-plus link-sosial">
+                                                    <i class="fa-brands fa-google-plus-g"></i>
+                                                </a>
+                                            </li> 
+                                            <li>
+                                                <a href="#" class="nk-social-youtube link-sosial">
+                                                    <i class="fa-brands fa-youtube"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nk-social-twitter link-sosial">
+                                                    <i class="fa-brands fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nk-social-pinterest link-sosial">
+                                                    <i class="fa-brands fa-square-pinterest"></i>
+                                                </a>
+                                            </li>  
+                                            <li>
+                                                <a href="#" class="nk-social-rss link-sosial">
+                                                    <i class="fa-solid fa-rss"></i>
+                                                </a>
+                                            </li>                          
+                                        </ul>
+                                    </div> 
+                                </div>  
+                                <div class="nk-widget nk-widget-highlighted">
+                                    <h3 class="nk-widget-title">
+                                        <span class="span-1 text-main-1" style="font-size:24px;">Latest <span class="span-2">Video</span></span>
+                                    </h3>
+                                    <div class="nk-widget-content">
+                                        <div class="nk-plain-video" data-video="https://www.youtube.com/watch?v=vXy8UBazlO8" style="background-image: url(https://img.youtube.com/vi/vXy8UBazlO8/maxresdefault.jpg);">
+                                            <span class="nk-video-plain-toggle">
+                                                <span class="nk-video-icon">
+                                                    <svg class="svg-inline--fa fa-play fa-w-14 pl-5" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="nk-widget nk-widget-highlighted">
+                                    <h3 class="nk-widget-title">
+                                        <span class="span-1 text-main-1" style="font-size:24px;">Top 3 <span class="span-2">Recent</span></span>
+                                    </h3>
+                                    <div class="nk-widget-content">
+                                        <div class="">
+                                            <div class="nk-widget-post">
+                                                <a href="#" class="nk-post-image">
+                                                    <img src="./Images/latest-img/post-1-sm.jpg" alt="">
+                                                </a>
+                                                <h3 class="nk-post-title">
+                                                    <a href="#">
+                                                        Smell magic in the air. Or maybe barbecue
+                                                    </a>
+                                                </h3>
+                                                <div class="nk-post-date">
+                                                    <i class="fa-solid fa-calendar-days"></i>
+                                                    Sep 18, 2018
+                                                </div>
+                                            </div>
+                                            <div class="nk-widget-post">
+                                                <a href="#" class="nk-post-image">
+                                                    <img src="./Images/latest-img/post-4-sm.jpg" alt="">
+                                                </a>
+                                                <h3 class="nk-post-title">
+                                                    <a href="#">
+                                                        Smell magic in the air. Or maybe barbecue
+                                                    </a>
+                                                </h3>
+                                                <div class="nk-post-date">
+                                                    <i class="fa-solid fa-calendar-days"></i>
+                                                    Sep 18, 2018
+                                                </div>
+                                            </div>
+                                            <div class="nk-widget-post">
+                                                <a href="#" class="nk-post-image">
+                                                    <img src="./Images/latest-img/post-3-sm.jpg" alt="">
+                                                </a>
+                                                <h3 class="nk-post-title">
+                                                    <a href="#">
+                                                        Smell magic in the air. Or maybe barbecue
+                                                    </a>
+                                                </h3>
+                                                <div class="nk-post-date">
+                                                    <i class="fa-solid fa-calendar-days"></i>
+                                                    Sep 18, 2018
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                                <div class="nk-widget nk-widget-highlighted">
+                                    <h3 class="nk-widget-title">
+                                        <span class="span-1 text-main-1" style="font-size:17px;">Top 3 <span class="span-2">ScreenShoot</span></span>
+                                    </h3>
+                                    <div class="nk-widget-content">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="nk-gallery-item-box-2">
+                                                    <a href="./Images/gallery/gallery-5.jpg" data-lightbox="image-5" data-title="My caption">
+                                                        <img src="./Images/gallery/gallery-5-thumb.jpg" alt="">
+                                                        <div class="overlay-2">
+                                                            <div class="nk-gallery-item-overlay-2">
+                                                                <span class="ion-eye-2">
+                                                                </span>
+                                                                <div class="icon-2">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>                                          
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="nk-gallery-item-box-2">
+                                                    <a href="./Images/gallery/gallery-1.jpg" data-lightbox="image-5" data-title="My caption">
+                                                        <img src="./Images/gallery/gallery-1-thumb.jpg" alt="">
+                                                        <div class="overlay-2">
+                                                            <div class="nk-gallery-item-overlay-2">
+                                                                <span class="ion-eye-2">
+                                                                </span>
+                                                                <div class="icon-2">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>                                          
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="nk-gallery-item-box-2">
+                                                    <a href="./Images/gallery/gallery-2.jpg" data-lightbox="image-5" data-title="My caption">
+                                                        <img src="./Images/gallery/gallery-2-thumb.jpg" alt="">
+                                                        <div class="overlay-2">
+                                                            <div class="nk-gallery-item-overlay-2">
+                                                                <span class="ion-eye-2">
+                                                                </span>
+                                                                <div class="icon-2">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>                                          
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="nk-gallery-item-box-2">
+                                                    <a href="./Images/gallery/gallery-3.jpg" data-lightbox="image-5" data-title="My caption">
+                                                        <img src="./Images/gallery/gallery-3-thumb.jpg" alt="">
+                                                        <div class="overlay-2">
+                                                            <div class="nk-gallery-item-overlay-2">
+                                                                <span class="ion-eye-2">
+                                                                </span>
+                                                                <div class="icon-2">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>                                          
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="nk-gallery-item-box-2">
+                                                    <a href="./Images/gallery/gallery-4.jpg" data-lightbox="image-5" data-title="My caption">
+                                                        <img src="./Images/gallery/gallery-4-thumb.jpg" alt="">
+                                                        <div class="overlay-2">
+                                                            <div class="nk-gallery-item-overlay-2">
+                                                                <span class="ion-eye-2">
+                                                                </span>
+                                                                <div class="icon-2">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>                                          
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="nk-gallery-item-box-2">
+                                                    <a href="./Images/gallery/gallery-6.jpg" data-lightbox="image-5" data-title="My caption">
+                                                        <img src="./Images/gallery/gallery-6-thumb.jpg" alt="">
+                                                        <div class="overlay-2">
+                                                            <div class="nk-gallery-item-overlay-2">
+                                                                <span class="ion-eye-2">
+                                                                </span>
+                                                                <div class="icon-2">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>                                          
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                
+                            </div>
+                            <div class="nk-widget nk-widget-highlighted">
+                                <h3 class="nk-widget-title">
+                                    <span class="span-1 text-main-1" style="font-size:17px;">next <span class="span-2">Matches</span></span>
+                                </h3>
+                                <div class="nk-widget-content">
+                                    <div class="nk-widget-match">
+                                        <a href="#">
+                                            <span class="nk-widget-match-left">
+                                                <span class="nk-widget-match-teams">
+                                                    <span class="nk-widget-match-team-logo">
+                                                        <img src="./Images/team-1.jpg" alt="">
+                                                    </span>
+                                                    <span class="nk-widget-match-vs">
+                                                        VS
+                                                    </span>
+                                                    <span class="nk-widget-match-team-logo">
+                                                        <img src="./Images/team-2.jpg" alt="">
+                                                    </span>
+                                                </span>
+                                                <span class="nk-widget-match-date">
+                                                    CS:GO - Apr 28, 2018 8:00 pm
+                                                </span>
+                                            </span>
+                                            <span class="nk-widget-match-right">
+                                                <span class="nk-match-score">
+                                                    Upcoming
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="nk-widget-match">
+                                        <a href="#">
+                                            <span class="nk-widget-match-left">
+                                                <span class="nk-widget-match-teams">
+                                                    <span class="nk-widget-match-team-logo">
+                                                        <img src="./Images/team-1.jpg" alt="">
+                                                    </span>
+                                                    <span class="nk-widget-match-vs">
+                                                        VS
+                                                    </span>
+                                                    <span class="nk-widget-match-team-logo">
+                                                        <img src="./Images/team-2.jpg" alt="">
+                                                    </span>
+                                                </span>
+                                                <span class="nk-widget-match-date">
+                                                    CS:GO - Apr 28, 2018 8:00 pm
+                                                </span>
+                                            </span>
+                                            <span class="nk-widget-match-right">
+                                                <span class="nk-match-score">
+                                                    Upcoming
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="nk-widget-match">
+                                        <a href="#">
+                                            <span class="nk-widget-match-left">
+                                                <span class="nk-widget-match-teams">
+                                                    <span class="nk-widget-match-team-logo">
+                                                        <img src="./Images/team-1.jpg" alt="">
+                                                    </span>
+                                                    <span class="nk-widget-match-vs">
+                                                        VS
+                                                    </span>
+                                                    <span class="nk-widget-match-team-logo">
+                                                        <img src="./Images/team-2.jpg" alt="">
+                                                    </span>
+                                                </span>
+                                                <span class="nk-widget-match-date">
+                                                    CS:GO - Apr 28, 2018 8:00 pm
+                                                </span>
+                                            </span>
+                                            <span class="nk-widget-match-right">
+                                                <span class="nk-match-score">
+                                                    Upcoming
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nk-widget nk-widget-highlighted">
+                                <h3 class="nk-widget-title">
+                                    <span class="span-1 text-main-1" style="font-size:17px;">Most <span class="span-2">Popular</span></span>
+                                </h3>
+                                <div class="nk-widget-content">
+                                    <div class="nk-product-cat-2">
+                                        <a href="#" class="nk-product-image-2">
+                                            <img src="./Images/product-14-xs.jpg" alt="">
+                                        </a>
+                                        <div class="nk-product-count-2">
+                                            <div class="nk-product-title-2">
+                                                <a href="#">she gabe my mother</a>
+                                            </div>
+                                            <div class="nk-gap-3"></div>
+                                            <div class="nk-product-rating-2">
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                            </div>
+                                            <div class="nk-gap-3"></div>
+                                            <div class="nk-product-price-2">
+                                                € 14.00
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="nk-product-cat-2">
+                                        <a href="#" class="nk-product-image-2">
+                                            <img src="./Images/product-12-xs.jpg" alt="">
+                                        </a>
+                                        <div class="nk-product-count-2">
+                                            <div class="nk-product-title-2">
+                                                <a href="#">she gabe my mother</a>
+                                            </div>
+                                            <div class="nk-gap-3"></div>
+                                            <div class="nk-product-rating-2">
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                            </div>
+                                            <div class="nk-gap-3"></div>
+                                            <div class="nk-product-price-2">
+                                                € 14.00
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="nk-product-cat-2">
+                                        <a href="#" class="nk-product-image-2">
+                                            <img src="./Images/product-11-xs.jpg" alt="">
+                                        </a>
+                                        <div class="nk-product-count-2">
+                                            <div class="nk-product-title-2">
+                                                <a href="#">she gabe my mother</a>
+                                            </div>
+                                            <div class="nk-gap-3"></div>
+                                            <div class="nk-product-rating-2">
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                                <i class="fa-solid fa-star-half-stroke .nk-product-rating-front "></i>
+                                            </div>
+                                            <div class="nk-gap-3"></div>
+                                            <div class="nk-product-price-2">
+                                                € 14.00
+                                            </div>
+                                            <div class="nk-gap-1"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <!-- last Sidebar -->
+                    <!-- start next matches -->
+                    <!-- last next matches -->
+                    <div class="nk-gap-2"></div>
+                    <div class="nk-gap-2"></div>
+                </div>
+            </div>
+            <!-- end latest post -->
+        </main>
+        <footer class="nk-footer">
+            <div class="container">
+                <div class="nk-gap-3">
+                    <div class="row vertical-gap">
+                        <div class="col-md-6">
+                            <div class="nk-widget">
+                                <h4 class="nk-widget-title">
+                                    <span class="span-1 text-main-1" style="font-size:17px;">Contact <span class="span-2">With Us</span></span>
+                                </h4>
+                                <form action="/" class="nk-form nk-form-ajax">
+                                    <div class="row vertical-gap sm-gap">
+                                        <div class="col-sm-6">
+                                            <input type="Email" class="form-control-2 required" name="email" placeholder="email">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="Email" class="form-control-2 required" name="name" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="nk-gap"></div>
+                                    <textarea class="form-control-2 required" name="Massage" placeholder="Massage" rows="5"></textarea>
+                                    <div class="nk-gap"></div>
+                                    <button class="send-btn">
+                                        <span>send <i class="fa-solid fa-paper-plane-top" style="color: black;"></i>
+                                        </span>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="nk-widget">
+                                <h3 class="nk-widget-title">
+                                    <span class="span-1 text-main-1" style="font-size:17px;">latest <span class="span-2">post</span></span>
+                                </h3>
+                                <div class="nk-widget-content">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="nk-widget-post">
+                                                <a href="#" class="nk-post-image">
+                                                    <img src="./Images/latest-img/post-2-sm.jpg" alt="">
+                                                </a>
+                                                <h3 class="nk-post-title">
+                                                    <a href="#">
+                                                        Smell magic in the air. Or maybe barbecue
+                                                    </a>
+                                                </h3>
+                                                <div class="nk-post-date">
+                                                    <i class="fa-solid fa-calendar-days"></i>
+                                                    Sep 18, 2018
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="nk-widget-post">
+                                                <a href="#" class="nk-post-image">
+                                                    <img src="./Images/latest-img/post-3-sm.jpg" alt="">
+                                                </a>
+                                                <h3 class="nk-post-title">
+                                                    <a href="#">
+                                                        Smell magic in the air. Or maybe barbecue
+                                                    </a>
+                                                </h3>
+                                                <div class="nk-post-date">
+                                                    <i class="fa-solid fa-calendar-days"></i>
+                                                    Sep 18, 2018
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nk-widget">
+                                <h3 class="nk-widget-title">
+                                    <span class="span-1 text-main-1" style="font-size:17px;">IN <span class="span-2">TWITTER</span></span>
+                                </h3>
+                                <div class="nk-widget-content">
+                                    <div class="nk-twitter">
+                                        <i class="fa-brands fa-twitter"></i>
+                                        @pamela
+                                        <div class="nk-twitter-date">
+                                            <span>12 may</span>
+                                        </div>
+                                    </div>
+                                    <div class="nk-twitter-text">
+                                       
+                                      👉 
+                                      <a href="#">1.envato.market/nk-portfolio</a>
+                                      👈  Up to ⚡️ 50% off ⚡️ on our whole 
+                                        <a href="#">#themeforest</a>
+                                        portfolio! Don't miss the flash sale for… 
+                                        <a href="#">twitter.com/i/web/status/1…</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+ 
+    </div>
+</body>
+<script>
+    // 1st carousel, main
+$('.carousel-main').flickity({
+    autoPlay: true
+});
+// 2nd carousel, navigation
+$('.carousel-nav').flickity({
+  asNavFor: '.carousel-main',
+  contain: true,
+  pageDots: false,
+  autoPlay: true
+});
+</script>
+<script>
+setTimeout(function() {
+  $('.nano').nanoScroller();
+}, 1000);
+</script>
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'resizeDuration':700
+    })
+</script>
+<script>
+const navMenu   = document.querySelector(".nk-navbar-mobile-content");
+const hamburger = document.querySelector(".menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+</script>
+</script>
+</html>
